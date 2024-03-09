@@ -14,9 +14,9 @@ spec:
       labels:
         app: nestjs-metrics
       annotations:
-        prometheus.io/scrape: "true"
+        prometheus.io/scrape: 'true'
         prometheus.io/path: /metrics
-        prometheus.io/port: "3000"
+        prometheus.io/port: '3000'
     spec:
       containers:
         - image: alexandergerus/nestjs-metrics

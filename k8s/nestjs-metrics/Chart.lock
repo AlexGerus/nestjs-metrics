@@ -5,5 +5,8 @@ dependencies:
 - name: grafana
   repository: https://grafana.github.io/helm-charts
   version: 7.3.3
-digest: sha256:6220966546a7ef10d50641d405152b5dab23553f2e319db3532d8abf4ece84ed
-generated: "2024-03-05T16:45:47.933046+02:00"
+- name: keda
+  repository: https://kedacore.github.io/charts
+  version: 2.13.2
+digest: sha256:c1e25bd8f04a602cb0a6faf8d4b93d79c50c58bbd276574f2b17548222fcb052
+generated: "2024-03-08T17:37:29.382282+02:00"
